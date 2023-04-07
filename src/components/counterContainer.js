@@ -16,3 +16,4 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 // add code here
+export default connect (mapDispatchToProps)(mapStateToProps);
