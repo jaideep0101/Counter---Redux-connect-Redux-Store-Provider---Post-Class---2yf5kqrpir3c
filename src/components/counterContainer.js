@@ -16,4 +16,6 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 // add code here
-export default connect (mapDispatchToProps)(mapStateToProps);
+const CounterContainer = connect (mapDispatchToProps ,mapStateToProps)(Counter);
+
+export default CounterContainer;
